@@ -5,7 +5,7 @@ export const profile = {
   location: 'Kuarters Institusi Pendidikan, Gombak Utara, 53100 W.P. Kuala Lumpur',
   phone: '+60 13 469 5745',
   email: 'anis.aufa92@gmail.com',
-  linkedin: 'https://linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/anis-aufa-abdullah-574700a5/',
   summary: `Detail-oriented and results-driven Accounting Professional with 4+ years’ experience in full-set accounts, auditing, and financial reporting. Skilled in applying accounting principles, managing payments, maintaining supplier and customer relationships, and providing financial insights to management. Adept with accounting software and delivering accurate, timely reports for decision-making.`,
   skills: [
     'Full Set of Accounts',
