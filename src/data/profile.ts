@@ -1,0 +1,78 @@
+export const profile = {
+  name: 'Anis Aufa Abdullah',
+  title: 'Accounting Professional',
+  tagline: 'Full‑set accounts, auditing, and financial reporting.',
+  location: 'Kuarters Institusi Pendidikan, Gombak Utara, 53100 W.P. Kuala Lumpur',
+  phone: '+60 13 469 5745',
+  email: 'anis.aufa92@gmail.com',
+  linkedin: 'https://linkedin.com',
+  summary: `Detail-oriented and results-driven Accounting Professional with 4+ years’ experience in full-set accounts, auditing, and financial reporting. Skilled in applying accounting principles, managing payments, maintaining supplier and customer relationships, and providing financial insights to management. Adept with accounting software and delivering accurate, timely reports for decision-making.`,
+  skills: [
+    'Full Set of Accounts',
+    'Financial Reporting & Analysis',
+    'Audit Procedures & Compliance',
+    'Budget Management',
+    'Client & Supplier Communication',
+    'Problem-Solving & Analytical Skills',
+    'Microsoft Word & Excel',
+    'SQL Accounting Software',
+    'Audit Express Software',
+  ],
+  experience: [
+    {
+      role: 'Account Executive',
+      company: 'Unic Group of Companies',
+      location: 'Kedah',
+      period: 'Mar 2017 – Aug 2019',
+      bullets: [
+        'Prepared and maintained a full set of accounts per accepted principles.',
+        'Recorded transactions ensuring compliance with standards.',
+        'Managed payment processes (timely receipts/disbursements).',
+        'Liaised with customers/suppliers to resolve payment issues.',
+        'Provided daily budget updates to higher management.',
+        'Advised management on current financial status and improvement areas.',
+      ],
+    },
+    {
+      role: 'Audit Executive',
+      company: 'Sam Ah Chow & Co.',
+      location: 'Penang',
+      period: 'Sep 2015 – Dec 2016',
+      bullets: [
+        'Produced complete audited reports for assigned companies.',
+        'Managed communications with clients and relevant parties during audits.',
+        'Conducted audits in teams for large companies.',
+        'Used auditing systems to generate detailed, accurate audit reports.',
+      ],
+    },
+  ],
+  education: [
+    {
+      program: "Bachelor’s Degree in Accounting (Hons.)",
+      school: 'Universiti Utara Malaysia, Kedah',
+      detail: 'CGPA: 3.26',
+      period: 'Nov 2011 – Oct 2015',
+    },
+    {
+      program: 'Matriculation in Accounting',
+      school: 'Kolej Matrikulasi Kedah',
+      detail: 'CGPA: 4.00',
+      period: 'Apr 2010 – Apr 2011',
+    },
+    {
+      program: 'Sijil Pelajaran Malaysia (SPM)',
+      school: 'Sekolah Menengah Kebangsaan Jitra',
+      detail: '6A, 3B, 1C',
+      period: 'Jan 2005 – Dec 2009',
+    },
+  ],
+  awards: [{ title: "Dean’s Award", org: 'Universiti Utara Malaysia', year: '2012' }],
+  languages: [
+    { name: 'Malay', level: 'Fluent' },
+    { name: 'English', level: 'Proficient' },
+  ],
+  references: [
+    { name: 'Anas Akmal Arshad', role: 'Head of Finance, Unic Group of Companies', phone: '+60 12 476 3743', email: 'anas@unicgroup.com.my' },
+    { name: 'Norhazlinda Baharudin', role: 'Audit Supervisor, Sam Ah Chow & Co.', phone: '+60 17 374 8250', email: 'hazlinda@sac.com.my' },
+  ],
+} as const
